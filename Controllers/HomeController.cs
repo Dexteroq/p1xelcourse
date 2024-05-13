@@ -13,6 +13,11 @@ namespace CourseWork.Controllers
             _logger = logger;
         }
 
+        public IActionResult About()
+        {
+            return View("~Views/Home/About.cshtml");
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -22,6 +27,10 @@ namespace CourseWork.Controllers
         {
             return View();
         }
+
+        
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
