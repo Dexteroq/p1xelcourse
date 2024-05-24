@@ -1,45 +1,66 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<title>@ViewData["Title"] - CourseWork</title> -->
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/CourseWork.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - School</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
 </head>
 <body>
-    <header>
-        <!-- <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CourseWork</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div> -->
+
+    <header class="header">
+        <section class="flex">
+            <a href="~/Home" class="logo">School</a>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
             </div>
-        </nav>
+
+            <div class="profile">
+                <img src="~/images/pic-1.png" class="image" alt="">
+                <h3 class="name">Maksim Petrovich</h3>
+                <p class="role">Student</p>
+                <a href="~/Profile" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="~/Login" class="option-btn">exit</a>
+                </div>
+            </div>
+        </section>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <div class="side-bar">
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="~/images/pic-1.png" class="image" alt="">
+            <h3 class="name">Maksim Petrovich</h3>
+            <p class="role">Student</p>
+            <a href="~/Profile" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="~/Home"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="~/About"><i class="fas fa-question"></i><span>About</span></a>
+            <a href="~/Courses"><i class="fas fa-graduation-cap"></i><span>Homework</span></a>
+            <a href="~/Contact"><i class="fas fa-headset"></i><span>Contact us</span></a>
+        </nav>
     </div>
 
-    <footer class="text-muted">
-        <div class="container">
-            <!-- &copy; 2024 - CourseWork - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> -->
-        </div>
-    </footer>
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+    <!-- custom js file link -->
+    <script src="~/js/script.js" asp-append-version="true"></script>
 </body>
 </html>

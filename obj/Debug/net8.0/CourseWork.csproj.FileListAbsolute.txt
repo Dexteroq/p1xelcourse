@@ -59,3 +59,4 @@ C:\Users\Acer\Source\Repos\p1xelcourse\obj\Debug\net8.0\refint\CourseWork.dll
 C:\Users\Acer\Source\Repos\p1xelcourse\obj\Debug\net8.0\CourseWork.pdb
 C:\Users\Acer\Source\Repos\p1xelcourse\obj\Debug\net8.0\CourseWork.genruntimeconfig.cache
 C:\Users\Acer\Source\Repos\p1xelcourse\obj\Debug\net8.0\ref\CourseWork.dll
+C:\Users\asus\OneDrive\Документы\1Study\ООП\Coursework\obj\Debug\net8.0\CourseWork.sourcelink.json
