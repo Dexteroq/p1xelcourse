@@ -16,7 +16,7 @@
 
     <header class="header">
         <section class="flex">
-            <a href="~/Home" class="logo">School</a>
+            <a href="~/Home" class="logo">Pixel</a>
 
             <div class="icons">
                 <div id="menu-btn" class="fas fa-bars"></div>
@@ -30,7 +30,7 @@
                 <p class="role">Student</p>
                 <a href="~/Profile" class="btn">view profile</a>
                 <div class="flex-btn">
-                    <a href="~/Login" class="option-btn">exit</a>
+                    <a href="~/Identity/Account/Login" class="option-btn">exit</a>
                 </div>
             </div>
         </section>
@@ -62,5 +62,6 @@
 
     <!-- custom js file link -->
     <script src="~/js/script.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

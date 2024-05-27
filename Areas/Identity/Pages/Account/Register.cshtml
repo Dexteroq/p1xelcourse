@@ -1,0 +1,68 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+    </header>
+
+    <div class="side-bar">
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="/images/logo1.png" class="image" alt="">
+            <h3 class="name">Who are you?</h3>
+        </div>
+    </div>
+
+    <section class="form-container">
+        <form asp-page="./Register" method="post" enctype="multipart/form-data" class="form">
+            <h3>Register now</h3>
+            <div class="form-group">
+                <label for="firstName"> <span></span></label>
+                <input type="text" asp-for="Input.FirstName" id="firstName" placeholder="Enter your first name" required maxlength="50" class="box">
+            </div>
+            <div class="form-group">
+                <label for="lastName"> <span></span></label>
+                <input type="text" asp-for="Input.LastName" id="lastName" placeholder="Enter your last name" required maxlength="50" class="box">
+            </div>
+            <div class="form-group">
+                <label for="email"> <span></span></label>
+                <input type="email" asp-for="Input.Email" id="email" placeholder="Enter your email" required maxlength="50" class="box">
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="password"><span></span></label>
+                <input type="password" asp-for="Input.Password" id="password" placeholder="Enter your password" required maxlength="20" class="box">
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+    </section>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+

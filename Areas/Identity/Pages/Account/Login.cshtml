@@ -1,0 +1,85 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+
+    <!-- добавляем стили для кнопки регистрации -->
+    <style>
+        .centered-btn {
+            text-align: center; /* выравниваем содержимое по центру */
+            margin-top: 20px; /* добавляем отступ сверху */
+        }
+
+            .centered-btn a {
+                display: inline-block; /* устанавливаем блочный тип элемента */
+                padding: 10px 20px; /* добавляем отступы вокруг текста кнопки */
+                background-color: #007bff; /* устанавливаем цвет фона кнопки */
+                color: #fff; /* устанавливаем цвет текста кнопки */
+                border: none; /* убираем границу у кнопки */
+                border-radius: 5px; /* задаем скругление углов */
+                text-decoration: none; /* убираем подчеркивание у ссылки */
+                transition: background-color 0.3s; /* добавляем плавное изменение цвета фона при наведении */
+            }
+
+                .centered-btn a:hover {
+                    background-color: #0056b3; /* изменяем цвет фона кнопки при наведении */
+                }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+    </header>
+
+    <div class="side-bar">
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="~/images/logo1.png" class="image" alt="">
+            <h3 class="name">Who are you?</h3>
+        </div>
+    </div>
+
+    <section class="form-container">
+        <form id="account" method="post">
+            <h3>Login now</h3>
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <p>Your email <span>*</span></p>
+            <input type="email" asp-for="Input.Email" class="box" autocomplete="username" aria-required="true" placeholder="enter your email" required maxlength="50">
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+            <p>Your password <span>*</span></p>
+            <input type="password" asp-for="Input.Password" class="box" autocomplete="current-password" aria-required="true" placeholder="enter your password" required maxlength="20">
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </section>
+
+    <div class="centered-btn">
+        <a href="~/Identity/Account/Register" class="option-btn">Register</a>
+    </div>
+    <!-- custom js file link  -->
+    <script src="~/js/script.js" asp-append-version="true"></script>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
