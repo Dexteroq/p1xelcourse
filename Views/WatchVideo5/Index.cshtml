@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-1.png" class="image" alt="">
+            <h3 class="name">Maksim Petrovich</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="Home"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="About"><i class="fas fa-question"></i><span>About</span></a>
+            <a href="Homework"><i class="fas fa-graduation-cap"></i><span>Homework</span></a>
+            <a href="Contact us"><i class="fas fa-headset"></i><span>Contact us</span></a>
+        </nav>
+
+    </div>
+
+    <section class="watch-video">
+
+        <div class="video-container">
+            <div class="video">
+                <video src="images/vid-2.mp4" controls poster="images/post22.png" id="video"></video>
+            </div>
+            <h3 class="title">Complete PYTHON tutorial (part 05)     <br> Test from below</br></h3>
+            <div class="info">
+                <p class="date"><i class="fas fa-calendar"></i><span>24.04.24</span></p>
+            </div>
+            <div class="tutor">
+                <img src="images/thumb1.png" alt="">
+                <div>
+                    <h3>Module 1</h3>
+                    <span>Python</span>
+                </div>
+            </div>
+            <a href="Playlist1" class="inline-btn">Back</a>
+            <p class="description">
+                Python uses unique identification for assigning blocks of code (for example, smart constructs, loops, functions, etc.).
+                For identification, please select 4 samples. Single tab stops are not recommended as they may cause problems with code readability.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="comments">
+
+        <h1 class="heading">3 test</h1>
+
+        <form action="" class="add-comment">
+            <div class="radio-input-container">
+                <div class="radio-input">
+                    <div class="info">
+                        <span class="question">
+                            What is Python PEP?
+                            <br>
+                        </span>
+                    </div>
+                    <input type="radio" id="value-1" name="value-radio-1" value="value-1">
+                    <label for="value-1">The process of setting user access rights</label>
+                    <input type="radio" id="value-2" name="value-radio-1" value="value-2">
+                    <label for="value-2">A document that sets out style rules and guidelines for developing Python</label>
+                    <input type="radio" id="value-3" name="value-radio-1" value="value-3">
+                    <label for="value-3">Python Enhancement Proposal version</label>
+                    <span class="result success">Congratulations!</span>
+                    <span class="result error">Bad answer</span>
+                </div>
+
+                <div class="radio-input">
+                    <div class="info">
+                        <span class="question">What is the command used to import a module into Python?</span>
+                    </div>
+                    <input type="radio" id="value-4" name="value-radio-2" value="value-4">
+                    <label for="value-4">require</label>
+                    <input type="radio" id="value-5" name="value-radio-2" value="value-5">
+                    <label for="value-5">import</label>
+                    <input type="radio" id="value-6" name="value-radio-2" value="value-6">
+                    <label for="value-6">include</label>
+                    <span class="result success">Congratulations!</span>
+                    <span class="result error">Bad answer</span>
+                </div>
+
+                <div class="radio-input">
+                    <div class="info">
+                        <span class="question">What functions in Python are used to display text on the screen?</span>
+                    </div>
+                    <input type="radio" id="value-7" name="value-radio-3" value="value-7">
+                    <label for="value-7">input()</label>
+                    <input type="radio" id="value-8" name="value-radio-3" value="value-8">
+                    <label for="value-8">print()</label>
+                    <input type="radio" id="value-9" name="value-radio-3" value="value-9">
+                    <label for="value-9">scan()</label>
+                    <span class="result success">Congratulations!</span>
+                    <span class="result error">Bad answer</span>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const correctAnswers = {
+                'value-radio-1': 'value-2',
+                'value-radio-2': 'value-5',
+                'value-radio-3': 'value-8'
+            };
+
+            document.querySelectorAll('.radio-input').forEach((radioInput) => {
+                radioInput.addEventListener('change', function (event) {
+                    const name = event.target.name;
+                    const value = event.target.value;
+                    const success = radioInput.querySelector('.result.success');
+                    const error = radioInput.querySelector('.result.error');
+
+                    if (correctAnswers[name] === value) {
+                        success.style.display = 'block';
+                        error.style.display = 'none';
+                    } else {
+                        success.style.display = 'none';
+                        error.style.display = 'block';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
