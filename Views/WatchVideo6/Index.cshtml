@@ -11,9 +11,16 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-
+    <style>
+        .repl-container {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body>
+
     <div class="side-bar">
 
         <div id="close-btn">
@@ -24,13 +31,13 @@
             <img src="images/pic-1.png" class="image" alt="">
             <h3 class="name">Maksim Petrovich</h3>
             <p class="role">Student</p>
-            <a href="profile.html" class="btn">view profile</a>
+            <a href="Profile" class="btn">view profile</a>
         </div>
 
         <nav class="navbar">
             <a href="Home"><i class="fas fa-home"></i><span>Home</span></a>
             <a href="About"><i class="fas fa-question"></i><span>About</span></a>
-            <a href="Homework"><i class="fas fa-graduation-cap"></i><span>Homework</span></a>
+            <a href="Courses"><i class="fas fa-graduation-cap"></i><span>Homework</span></a>
             <a href="Contact us"><i class="fas fa-headset"></i><span>Contact us</span></a>
         </nav>
 
@@ -40,8 +47,7 @@
 
         <div class="video-container">
             <div class="video">
-                <!-- Видео, возможно, пропущено по ошибке -->
-                <video src="images/vid-3.mp4" controls poster="images/post23.png" id="video"></video>
+               
             </div>
             <h3 class="title">Complete PYTHON tutorial (part 06) <br> Write a code</br></h3>
             <div class="info">
@@ -50,7 +56,7 @@
             <div class="tutor">
                 <img src="images/thumb1.png" alt="">
                 <div>
-                    <h3>Module 1</h3>
+                    <h3>Module 2</h3>
                     <span>Python</span>
                 </div>
             </div>
@@ -66,11 +72,10 @@
     <section class="comments">
 
         <h1 class="heading">Coding place</h1>
-        <!-- Content for the comments section can be added here -->
+        <div class="repl-container">
+            <iframe height="500px" width="100%" src="https://www.programiz.com/python-programming/online-compiler/?ref=8a8b7662" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+        </div>
     </section>
 
     <!-- custom js file link -->
     <script src="js/script.js"></script>
-
-</body>
-</html>

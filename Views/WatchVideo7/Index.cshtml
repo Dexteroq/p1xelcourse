@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="images/pic-1.png" class="image" alt="">
+            <h3 class="name">Maksim Petrovich</h3>
+            <p class="role">Student</p>
+            <a href="Profile" class="btn">view profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="Home"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="About"><i class="fas fa-question"></i><span>About</span></a>
+            <a href="Courses"><i class="fas fa-graduation-cap"></i><span>Homework</span></a>
+            <a href="Contact us"><i class="fas fa-headset"></i><span>Contact us</span></a>
+        </nav>
+
+    </div>
+
+    <section class="watch-video">
+
+        <div class="video-container">
+            <div class="video">
+                <video src="images/module3les1.mp4" controls poster="images/Frame 287.png" id="video"></video>
+            </div>
+            <h3 class="title">Complete PYTHON tutorial (part 07)</h3>
+            <div class="info">
+                <p class="date"><i class="fas fa-calendar"></i><span>21.04.24</span></p>
+            </div>
+            <div class="tutor">
+                <img src="images/thumb1.png" alt="">
+                <div>
+                    <h3>Module 3</h3>
+                    <span>Python</span>
+                </div>
+            </div>
+            <a href="Playlist2" class="inline-btn">Back</a>
+            <p class="description">
+                In fact, if you want to get into data science and machine learning, Python is THE language that you must learn. Python and Django (a popular Python framework) are also very popular choices for building the backend of web applications. Small or big companies use Python to re-write their existing applications or build new applications. Instagram, DropBox, and YouTube are examples of websites built with Python. Well, more accurately, the backend of these applications is built with Python and Django.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="comments">
+
+        <h1 class="heading">2 comments</h1>
+
+        <form action="" class="add-comment">
+            <h3>Add comments</h3>
+            <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+            <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+        </form>
+
+        <h1 class="heading">user comments</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic1.webp" alt="">
+                    <div>
+                        <h3>Ilya Gorb</h3>
+                        <span>23.04.24</span>
+                    </div>
+                </div>
+                <div class="comment-box">awesome!</div>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="images/pic2.webp" alt="">
+                    <div>
+                        <h3>Oleg Ivanchikov</h3>
+                        <span>22.04.24</span>
+                    </div>
+                </div>
+                <div class="comment-box">WOOW</div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
