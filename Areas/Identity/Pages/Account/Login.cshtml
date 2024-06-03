@@ -2,6 +2,7 @@
 @model LoginModel
 @{
     ViewData["Title"] = "Log in";
+    ViewData["HideHeader"] = true;  // Добавьте эту строку
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -17,26 +18,25 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
 
-    <!-- добавляем стили для кнопки регистрации -->
     <style>
         .centered-btn {
-            text-align: center; /* выравниваем содержимое по центру */
-            margin-top: 20px; /* добавляем отступ сверху */
+            text-align: center;
+            margin-top: 20px;
         }
 
             .centered-btn a {
-                display: inline-block; /* устанавливаем блочный тип элемента */
-                padding: 10px 20px; /* добавляем отступы вокруг текста кнопки */
-                background-color: #007bff; /* устанавливаем цвет фона кнопки */
-                color: #fff; /* устанавливаем цвет текста кнопки */
-                border: none; /* убираем границу у кнопки */
-                border-radius: 5px; /* задаем скругление углов */
-                text-decoration: none; /* убираем подчеркивание у ссылки */
-                transition: background-color 0.3s; /* добавляем плавное изменение цвета фона при наведении */
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff; 
+                color: #fff; 
+                border: none; 
+                border-radius: 5px; 
+                text-decoration: none; 
+                transition: background-color 0.3s;
             }
 
                 .centered-btn a:hover {
-                    background-color: #0056b3; /* изменяем цвет фона кнопки при наведении */
+                    background-color: #0056b3;
                 }
     </style>
 </head>
@@ -68,13 +68,12 @@
             <input type="password" asp-for="Input.Password" class="box" autocomplete="current-password" aria-required="true" placeholder="enter your password" required maxlength="20">
             <span asp-validation-for="Input.Password" class="text-danger"></span>
             <input type="submit" value="login now" class="btn">
+            <div class="centered-btn">
+                <a href="~/Identity/Account/Register" class="option-btn">Don't have an account yet?</a>
+            </div>
+
         </form>
-
     </section>
-
-    <div class="centered-btn">
-        <a href="~/Identity/Account/Register" class="option-btn">Register</a>
-    </div>
     <!-- custom js file link  -->
     <script src="~/js/script.js" asp-append-version="true"></script>
 

@@ -2,13 +2,14 @@
 @model RegisterModel
 @{
     ViewData["Title"] = "Register";
+    ViewData["HideHeader"] = true; // Добавьте эту строку
 }
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" ="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
 
@@ -18,6 +19,27 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+        .centered-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+            .centered-btn a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff; 
+                color: #fff; 
+                border: none; 
+                border-radius: 5px;
+                text-decoration: none; 
+                transition: background-color 0.3s;
+            }
+
+                .centered-btn a:hover {
+                    background-color: #0056b3;
+                }
+    </style>
 </head>
 <body>
 
@@ -57,12 +79,13 @@
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
             <button type="submit" class="btn">Register</button>
+            <div class="centered-btn">
+                <a href="~/Identity/Account/Login" class="option-btn">Already have an account?</a>
+            </div>
         </form>
     </section>
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
 </body>
 </html>
-
