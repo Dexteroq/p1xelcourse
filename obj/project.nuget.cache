@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a+k4IKLv6fQGrS1oSioEulZjD8NgUDQRpJASfX6VHepAdNlBlrmIc8b2b8qIg0YfyKqqNw0hM5NeWRKudrqBdQ==",
+  "dgSpecHash": "2JnzguHX6+DOOnH0D2B7D7V4mHYkbHyDgWUM+ZchXw/uShmraBXFiECLDpP3ie7I9R6Z2zqmc9/cSWYuZmhxCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\CourseWork.csproj",
+  "projectFilePath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\CourseWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asus\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\asus\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

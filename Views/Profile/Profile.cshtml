@@ -11,7 +11,7 @@
 
         <div class="user">
             <img src="~/images/pic-1.png" alt="">
-            <h3>@ViewData["UserName"]</h3>
+            @await Component.InvokeAsync("UserInfo", new { displayType = "name" }) <!-- Используем компонент для отображения имени пользователя -->
             <p>Student</p>
         </div>
 

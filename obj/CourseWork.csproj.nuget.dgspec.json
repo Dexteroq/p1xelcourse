@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\CourseWork.csproj": {}
+    "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\CourseWork.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\CourseWork.csproj": {
+    "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\CourseWork.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\CourseWork.csproj",
+        "projectUniqueName": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\CourseWork.csproj",
         "projectName": "CourseWork",
-        "projectPath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\CourseWork.csproj",
+        "projectPath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\CourseWork.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\Coursework\\obj\\",
+        "outputPath": "C:\\Users\\asus\\OneDrive\\Документы\\1Study\\ООП\\CourseWork\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

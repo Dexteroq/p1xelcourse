@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +27,7 @@
 
             <div class="profile">
                 <img src="~/images/pic-1.png" class="image" alt="">
-                <h3 class="name">@ViewData["UserEmail"]</h3>
+                @await Component.InvokeAsync("UserInfo", new { displayType = "email" })
                 <p class="role">Student</p>
                 <a href="~/Profile" class="btn">view profile</a>
                 <div class="flex-btn">
@@ -43,7 +44,8 @@
 
         <div class="profile">
             <img src="~/images/pic-1.png" class="image" alt="">
-            <h3 class="name">@ViewData["UserName"]</h3>
+            @await Component.InvokeAsync("UserInfo", new { displayType = "name" })
+
             <p class="role">Student</p>
             <a href="~/Profile" class="btn">view profile</a>
         </div>
