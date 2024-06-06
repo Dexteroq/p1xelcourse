@@ -29,9 +29,11 @@
                     <img src="~/images/pic-1.png" class="image" alt="">
                     @await Component.InvokeAsync("UserInfo", new { displayType = "email" })
                     <p class="role">Student</p>
-                    <a href="~/Profile" class="btn">view profile</a>
+                    <a href="~/Profile" class="btn profile-btn">View Profile</a>
                     <div class="flex-btn">
-                        <a href="~/Identity/Account/Login" class="option-btn">exit</a>
+                        <form asp-controller="Account" asp-action="Logout" method="post" class="btn-form">
+                            <button type="submit" class="btn profile-btn">Exit</button>
+                        </form>
                     </div>
                 </div>
             </section>

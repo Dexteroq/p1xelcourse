@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
-
+.btn-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 :root {
     --main-color: #695CFE;
     --red: #e74c3c;
