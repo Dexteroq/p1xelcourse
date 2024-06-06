@@ -17,131 +17,131 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CourseWork
 build_property.RootNamespace = CourseWork
-build_property.ProjectDir = C:\Users\asus\OneDrive\Документы\1Study\ООП\CourseWork\
+build_property.ProjectDir = C:\Users\Acer\source\repos\p1xelcourse\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\asus\OneDrive\Документы\1Study\ООП\CourseWork
+build_property.MSBuildProjectDirectory = C:\Users\Acer\source\repos\p1xelcourse
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/About/About.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/About/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Contact/Contact.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Contact/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Courses/Courses.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Courses/Courses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDb3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Home/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Playlist1/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Playlist1/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3QxXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Playlist2/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Playlist2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3QyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Playlist/Playlist.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Playlist/Playlist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWxpc3RcUGxheWxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Profile/Profile.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Profile/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Shared/Components/UserInfo/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckluZm9cRGVmYXVsdC5jc2h0bWw=
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Shared/Components/UserInfo/default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckluZm9cZGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Shared/Error.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo2/Watch2.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo2/Watch2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzJcV2F0Y2gyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo3/Watch3.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo3/Watch3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzNcV2F0Y2gzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo4/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo4/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo5/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo5/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo6/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo6/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo7/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo7/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo8/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo8/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzhcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo9/Index.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo9/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlbzlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/WatchVideo/Watch.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/WatchVideo/Watch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hWaWRlb1xXYXRjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/_ViewImports.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/_ViewStart.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asus/OneDrive/Документы/1Study/ООП/CourseWork/Views/Shared/_Layout.cshtml]
+[C:/Users/Acer/source/repos/p1xelcourse/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tyddf0lxbl
