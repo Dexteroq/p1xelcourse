@@ -1,14 +1,10 @@
-﻿﻿@{
-    ViewData["Title"] = "Watch";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>watch</title>
+    <title>Watch</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -48,42 +44,117 @@
 
         <h1 class="heading">2 comments</h1>
 
-        <form action="" class="add-comment">
+        <form id="comment-form" class="add-comment">
             <h3>Add comments</h3>
-            <textarea name="comment_box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+            <textarea name="comment_box" id="comment-box" placeholder="enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
             <input type="submit" value="add comment" class="inline-btn" name="add_comment">
         </form>
 
         <h1 class="heading">user comments</h1>
 
-        <div class="box-container">
-            <div class="box">
-                <div class="user">
-                    <img src="images/pic1.webp" alt="">
-                    <div>
-                        <h3>Ilya Gorb</h3>
-                        <span>23.04.24</span>
-                    </div>
-                </div>
-                <div class="comment-box">awesome!</div>
-            </div>
-
-            <div class="box">
-                <div class="user">
-                    <img src="images/pic2.webp" alt="">
-                    <div>
-                        <h3>Oleg Ivanchikov</h3>
-                        <span>22.04.24</span>
-                    </div>
-                </div>
-                <div class="comment-box">WOOW</div>
-            </div>
+        <div id="comment-container" class="box-container">
+            <!-- Comments will be dynamically added here -->
         </div>
 
     </section>
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
+    <script>
+        // Function to delete a comment
+        function deleteComment(index) {
+            var comments = JSON.parse(localStorage.getItem('comments')) || [];
+            comments.splice(index, 1); // Remove the comment at the specified index
+            localStorage.setItem('comments', JSON.stringify(comments));
+            loadComments(); // Reload comments
+        }
+
+        // Event listener for form submission
+        document.getElementById('comment-form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent default form submission
+
+            // Get the comment text
+            var comment = document.getElementById('comment-box').value;
+
+            // Check if Local Storage is supported
+            if (typeof (Storage) !== "undefined") {
+                // Retrieve existing comments or initialize as an empty array
+                var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+                // Add the new comment
+                comments.push(comment);
+
+                // Save the comments back to Local Storage
+                localStorage.setItem('comments', JSON.stringify(comments));
+
+                // Clear the comment box
+                document.getElementById('comment-box').value = '';
+
+                // Reload comments
+                loadComments();
+            } else {
+                alert("Sorry, your browser does not support web storage. Comments cannot be saved.");
+            }
+        });
+
+        // Function to load comments from Local Storage and display them
+        function loadComments() {
+            var commentContainer = document.getElementById('comment-container');
+            commentContainer.innerHTML = ''; // Clear existing comments
+
+            // Retrieve comments from Local Storage
+            var comments = JSON.parse(localStorage.getItem('comments')) || [];
+
+            // Loop through comments and create HTML elements to display them
+            comments.forEach(function (commentText, index) {
+                var box = document.createElement('div');
+                box.classList.add('box');
+
+                var userDiv = document.createElement('div');
+                userDiv.classList.add('user');
+
+                var img = document.createElement('img');
+                img.setAttribute('src', 'images/pic-1.png');
+                img.setAttribute('alt', '');
+
+                var userContent = document.createElement('div');
+
+                var userName = document.createElement('h3');
+                userName.textContent = 'Учень'; // You can replace this with actual user name
+
+                var commentDate = document.createElement('span');
+                commentDate.textContent = new Date().toLocaleDateString(); // You can format date as needed
+
+                userContent.appendChild(userName);
+                userContent.appendChild(commentDate);
+
+                userDiv.appendChild(img);
+                userDiv.appendChild(userContent);
+
+                var commentBox = document.createElement('div');
+                commentBox.classList.add('comment-box');
+                commentBox.textContent = commentText;
+
+                // Create delete button
+                var deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.classList.add('delete-btn');
+                deleteButton.addEventListener('click', function () {
+                    deleteComment(index);
+                });
+
+                // Append delete button to commentBox
+                box.appendChild(userDiv);
+                box.appendChild(commentBox);
+                box.appendChild(deleteButton);
+
+                commentContainer.appendChild(box);
+            });
+        }
+
+        // Call the loadComments function when the page loads to display existing comments
+        window.onload = loadComments;
+    </script>
 
 </body>
 </html>

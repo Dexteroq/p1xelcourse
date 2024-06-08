@@ -1,17 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\",
+  "WorkspaceRootPath": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\topicphp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\topicphp\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\topicjs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\topicjs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\controllers\\topicphpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:controllers\\topicphpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\topichtml\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\topichtml\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\playlist\\playlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\playlist\\playlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\controllers\\topichtmlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:controllers\\topichtmlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\watchvideo9\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\watchvideo9\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\watchvideo4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\watchvideo4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\acer\\source\\repos\\p1xelcourse\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,23 +78,149 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\TopicPHP\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TopicPHP\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\TopicPHP\\Index.cshtml",
+              "RelativeToolTip": "Views\\TopicPHP\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T12:18:46.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TopicPHPController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\TopicPHPController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TopicPHPController.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\TopicPHPController.cs",
+              "RelativeToolTip": "Controllers\\TopicPHPController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T12:18:39.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\TopicJS\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TopicJS\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\TopicJS\\Index.cshtml",
+              "RelativeToolTip": "Views\\TopicJS\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T12:01:14.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Playlist.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Playlist\\Playlist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Playlist\\Playlist.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Playlist\\Playlist.cshtml",
+              "RelativeToolTip": "Views\\Playlist\\Playlist.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T11:29:38.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T11:20:19.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\Source\\Repos\\p1xelcourse\\Views\\TopicHTML\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TopicHTML\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\Source\\Repos\\p1xelcourse\\Views\\TopicHTML\\Index.cshtml",
+              "RelativeToolTip": "Views\\TopicHTML\\Index.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T11:18:30.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TopicHTMLController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\TopicHTMLController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TopicHTMLController.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\TopicHTMLController.cs",
+              "RelativeToolTip": "Controllers\\TopicHTMLController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T11:18:10.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\WatchVideo9\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\WatchVideo9\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\WatchVideo9\\Index.cshtml",
+              "RelativeToolTip": "Views\\WatchVideo9\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T11:16:55.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\WatchVideo4\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\WatchVideo4\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\WatchVideo4\\Index.cshtml",
+              "RelativeToolTip": "Views\\WatchVideo4\\Index.cshtml",
+              "ViewState": "AQIAAH0AAAAAAAAAAADwv6AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T11:12:20.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-08T11:12:07.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -63,11 +229,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABcAAAAAAAAAAAAAACEAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -76,13 +242,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\source\\repos\\p1xelcourse\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T19:37:27.766Z",
               "EditorCaption": ""
