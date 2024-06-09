@@ -1415,4 +1415,52 @@ section {
 }
 
 
+.chat-button {
+    position: fixed;
+    bottom: 20px; /* Отступ снизу */
+    left: 20px; /* Отступ слева */
+    display: inline-flex;
+    align-items: center;
+    background-color: #4285f4; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 8px 16px; /* Внутренние отступы, уменьшенные */
+    border-radius: 20px; /* Скругленные углы */
+    font-family: Arial, sans-serif; /* Шрифт */
+    font-size: 14px; /* Размер текста, уменьшенный */
+    cursor: pointer; /* Указатель курсора */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тень */
+    z-index: 10000; /* Уровень наложения, чтобы кнопка была поверх других элементов */
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: background-color 0.3s, transform 0.3s; /* Анимация при наведении */
+}
+
+    .chat-button:hover {
+        background-color: #357ae8; /* Изменение цвета фона при наведении */
+        transform: translateY(-2px); /* Легкое поднятие кнопки при наведении */
+    }
+
+.chat-icon {
+    width: 20px; /* Размер иконки уменьшен */
+    height: 20px; /* Размер иконки уменьшен */
+    background-color: white; /* Цвет иконки */
+    border-radius: 50%; /* Скругленные углы иконки */
+    display: inline-block;
+    margin-right: 8px; /* Отступ справа от иконки уменьшен */
+    position: relative;
+}
+
+    .chat-icon::before {
+        content: '';
+        width: 10px; /* Размер внутреннего круга уменьшен */
+        height: 10px; /* Размер внутреннего круга уменьшен */
+        background-color: #4285f4; /* Цвет круга внутри иконки */
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
 /* Решта стилів тут залишаються незмінними */

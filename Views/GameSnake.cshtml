@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        canvas {
+			border: 1px solid #000;
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+
+        const gridSize = 20;
+        let snake = [{ x: 100, y: 100 }];
+        let direction = 'RIGHT';
+        let food = {
+            x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
+            y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'ArrowUp' && direction !== 'DOWN') {
+                direction = 'UP';
+            } else if (event.key === 'ArrowDown' && direction !== 'UP') {
+                direction = 'DOWN';
+            } else if (event.key === 'ArrowLeft' && direction !== 'RIGHT') {
+                direction = 'LEFT';
+            } else if (event.key === 'ArrowRight' && direction !== 'LEFT') {
+                direction = 'RIGHT';
+            }
+        });
+
+        function update() {
+            const head = { ...snake[0] };
+            if (direction === 'UP') head.y -= gridSize;
+            if (direction === 'DOWN') head.y += gridSize;
+            if (direction === 'LEFT') head.x -= gridSize;
+            if (direction === 'RIGHT') head.x += gridSize;
+
+            if (head.x === food.x && head.y === food.y) {
+                food = {
+                    x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
+                    y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
+                };
+            } else {
+                snake.pop();
+            }
+
+            if (
+                head.x < 0 ||
+                head.x >= canvas.width ||
+                head.y < 0 ||
+                head.y >= canvas.height ||
+                snake.some(segment => segment.x === head.x && segment.y === head.y)
+            ) {
+                snake = [{ x: 100, y: 100 }];
+                direction = 'RIGHT';
+            }
+
+            snake.unshift(head);
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = 'red';
+            ctx.fillRect(food.x, food.y, gridSize, gridSize);
+
+            ctx.fillStyle = 'green';
+            snake.forEach(segment => ctx.fillRect(segment.x, segment.y, gridSize, gridSize));
+        }
+
+        setInterval(update, 100);
+    </script>
+</body>
+</html>
