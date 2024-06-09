@@ -1,172 +1,138 @@
 ﻿@{
-    ViewData["Title"] = "Watch";
+    ViewData["Title"] = "Game";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
 
-    <!-- Внутренние стили -->
-    <style>
-        /* Общие стили для страницы */
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
+<header class="game-header">
+    <h2>Play the exciting game "Snake" created by our students</h2>
+    <button class="pixel-tab" onclick="restartGame()">Restart Game</button>
+</header>
 
-        /* Стили для заголовка */
-        header {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        /* Стили для заголовка игры */
-        h1 {
-            margin: 0;
-        }
-
-        /* Стили для вкладки Pixel */
-        .pixel-tab {
-            font-size: 18px;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-            /* Стили для вкладки Pixel при наведении */
-            .pixel-tab:hover {
-                background-color: #45a049;
-            }
-
-        /* Отрисовка рамки вокруг игрового поля */
-        canvas {
-            border: 1px solid #000;
-        }
-
-    </style>
-</head>
-<body>
-
-    <!-- Заголовок страницы и описание -->
-    <header>
-        <h2>Play the exciting game "Snake" created by our students</h2>
-        <!-- Зеленая кнопка Pixel -->
-        <button class="pixel-tab" onclick="restartGame()">Restart Game</button>
-    </header>
-
-    <!-- Секция для игрового поля -->
-    <section class="watch-video">
-        <div class="video-container">
-            <div class="video">
-                <!-- Холст для рисования игрового поля -->
-                <canvas id="gameCanvas" width="400" height="400"></canvas>
-            </div>
+<section class="watch-video">
+    <div class="video-container">
+        <div class="video">
+            <canvas id="gameCanvas" width="400" height="400"></canvas> <!-- Уменьшаем высоту canvas -->
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- JavaScript код игры -->
-    <script>
-        const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d');
+<style>
+    .game-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
 
-        // Размер ячейки в игровом поле
-        const gridSize = 20;
-        let snake = [{ x: 100, y: 100 }]; // Начальное положение змейки
-        let direction = 'RIGHT'; // Направление движения змейки
-        let food = {
-            x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
-            y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
-        }; // Положение еды на поле
-
-        // Обработка нажатий клавиш для изменения направления движения
-        document.addEventListener('keydown', (event) => {
-            if (event.key === 'ArrowUp' && direction !== 'DOWN') {
-                direction = 'UP';
-            } else if (event.key === 'ArrowDown' && direction !== 'UP') {
-                direction = 'DOWN';
-            } else if (event.key === 'ArrowLeft' && direction !== 'RIGHT') {
-                direction = 'LEFT';
-            } else if (event.key === 'ArrowRight' && direction !== 'LEFT') {
-                direction = 'RIGHT';
-            }
-        });
-
-        // Обновление игрового поля и отрисовка змейки с едой
-        function update() {
-            const head = { ...snake[0] };
-            if (direction === 'UP') head.y -= gridSize;
-            if (direction === 'DOWN') head.y += gridSize;
-            if (direction === 'LEFT') head.x -= gridSize;
-            if (direction === 'RIGHT') head.x += gridSize;
-
-            // Обработка съедания еды и рост змейки
-            if (head.x === food.x && head.y === food.y) {
-                food = {
-                    x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
-                    y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
-                };
-            } else {
-                snake.pop(); // Убираем последний сегмент змейки
-            }
-
-            // Проверка столкновений со стенами и самой змейкой
-            if (
-                head.x < 0 ||
-                head.x >= canvas.width ||
-                head.y < 0 ||
-                head.y >= canvas.height ||
-                snake.some(segment => segment.x === head.x && segment.y === head.y)
-            ) {
-                snake = [{ x: 100, y: 100 }]; // Возвращаем змейку в начальное положение
-                direction = 'RIGHT'; // Начинаем движение снова вправо
-            }
-
-            snake.unshift(head); // Добавляем новую голову змейки
-
-            // Очистка игрового поля и отрисовка еды и змейки
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            ctx.fillStyle = 'red';
-            ctx.fillRect(food.x, food.y, gridSize, gridSize); // Рисуем еду
-            ctx.fillStyle = 'green';
-            snake.forEach(segment => ctx.fillRect(segment.x, segment.y, gridSize, gridSize)); // Рисуем змейку
+        .game-header h2 {
+            margin: 0;
         }
 
-        // Обновление игрового поля каждые 100 миллисекунд
-        let gameLoop = setInterval(update, 100);
+    .pixel-tab {
+        font-size: 18px;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
-        // Функция для перезапуска игры
-        function restartGame() {
-            clearInterval(gameLoop); // Остановка предыдущего интервала, если он был установлен
-            snake = [{ x: 100, y: 100 }]; // Возвращаем змейку в начальное положение
-            direction = 'RIGHT'; // Начальное направление движения
+        .pixel-tab:hover {
+            background-color: #45a049;
+        }
+
+    .watch-video {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Изменено на flex-start */
+        padding-top: 20px;
+    }
+
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    canvas {
+        border: 1px solid #000;
+    }
+</style>
+
+<script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const gridSize = 20;
+    let snake = [{ x: 100, y: 100 }];
+    let direction = 'RIGHT';
+    let food = {
+        x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
+        y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
+    };
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowUp' && direction !== 'DOWN') direction = 'UP';
+        if (event.key === 'ArrowDown' && direction !== 'UP') direction = 'DOWN';
+        if (event.key === 'ArrowLeft' && direction !== 'RIGHT') direction = 'LEFT';
+        if (event.key === 'ArrowRight' && direction !== 'LEFT') direction = 'RIGHT';
+    });
+
+    function update() {
+        const head = { ...snake[0] };
+        if (direction === 'UP') head.y -= gridSize;
+        if (direction === 'DOWN') head.y += gridSize;
+        if (direction === 'LEFT') head.x -= gridSize;
+        if (direction === 'RIGHT') head.x += gridSize;
+
+        if (head.x === food.x && head.y === food.y) {
             food = {
                 x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
                 y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
-            }; // Положение новой еды
-            gameLoop = setInterval(update, 100); // Запуск нового интервала обновления игры
+            };
+        } else {
+            snake.pop();
         }
 
-    </script>
+        if (
+            head.x < 0 ||
+            head.x >= canvas.width ||
+            head.y < 0 ||
+            head.y >= canvas.height ||
+            snake.some(segment => segment.x === head.x && segment.y === head.y)
+        ) {
+            snake = [{ x: 100, y: 100 }];
+            direction = 'RIGHT';
+        }
 
-    <!-- Пользовательский JavaScript файл -->
-    <script src="js/script.js"></script>
-</body>
-</html>
+        snake.unshift(head);
 
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = 'red';
+        ctx.fillRect(food.x, food.y, gridSize, gridSize);
+        ctx.fillStyle = 'green';
+        snake.forEach(segment => ctx.fillRect(segment.x, segment.y, gridSize, gridSize));
+    }
+
+    let gameLoop = setInterval(update, 100);
+
+    function restartGame() {
+        clearInterval(gameLoop);
+        snake = [{ x: 100, y: 100 }];
+        direction = 'RIGHT';
+        food = {
+            x: Math.floor(Math.random() * (canvas.width / gridSize)) * gridSize,
+            y: Math.floor(Math.random() * (canvas.height / gridSize)) * gridSize
+        };
+        gameLoop = setInterval(update, 100);
+    }
+</script>
