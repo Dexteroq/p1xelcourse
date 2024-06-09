@@ -2,11 +2,18 @@
 using Microsoft.EntityFrameworkCore;
 using CourseWork.Data;
 using CourseWork.Areas.Identity.Data;
+using CourseWork.Models; // Ensure you add this namespace for your models
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("AuthDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
 
-builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(connectionString));
+// Строка подключения для контекста аутентификации
+var authConnectionString = builder.Configuration.GetConnectionString("AuthDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
+
+// Строка подключения для контекста комментариев (используем DefaultConnection)
+var defaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(authConnectionString));
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(defaultConnectionString));
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<AuthDbContext>();

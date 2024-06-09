@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\watchvideo4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\watchvideo4\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\topgame\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\topgame\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\courses\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\courses\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|c:\\users\\asus\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1study\\\u043E\u043E\u043F\\coursework\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C805BC4B-5A45-4893-95F6-1580A10737F1}|CourseWork.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,79 +59,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\WatchVideo4\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\WatchVideo4\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\WatchVideo4\\Index.cshtml",
-              "RelativeToolTip": "Views\\WatchVideo4\\Index.cshtml",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAiwKAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T13:45:37.687Z",
+              "Title": "20240609151149_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDb\\20240609151149_InitialCreate.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T15:11:49.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Courses.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Courses\\Courses.cshtml",
-              "RelativeDocumentMoniker": "Views\\Courses\\Courses.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Courses\\Courses.cshtml",
-              "RelativeToolTip": "Views\\Courses\\Courses.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T13:42:39.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T13:41:11.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADoAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T13:18:36.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-09T13:16:11.898Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:38:24.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\TopGame\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\TopGame\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Views\\TopGame\\Index.cshtml",
-              "RelativeToolTip": "Views\\TopGame\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T13:15:23.941Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-09T14:36:59.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:34:13.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\1Study\\\u041E\u041E\u041F\\Coursework\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:29:09.717Z",
               "EditorCaption": ""
             }
           ]
