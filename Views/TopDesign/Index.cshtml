@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Design";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python for Design</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section class="watch-video">
+        <div class="video-container">
+            <div class="video">
+                <!-- Video content goes here -->
+            </div>
+            <h3 class="title">Python for Design: GUI in Python in 5 minutes</h3>
+            <div class="info">
+                <p class="date"><i class="fas fa-calendar"></i><span>11.06.24</span></p>
+            </div>
+            <div class="tutor">
+                <img src="images/designico.png" alt="Business Icon" width="50" height="50">
+                <div>
+                    <h3>Topic: Design</h3>
+                    <span>Design</span>
+                </div>
+            </div>
+            <a href="Home" class="inline-btn">Back</a>
+            <div class="description">
+                <p>Python is easy to use. In it you can find a huge number of libraries for anything. And this is its main advantage. A few lines of code won't get you anywhere. If you need scripts for personal use or for a tech-savvy audience, then you don't even have to think about a GUI.</p>
+
+                <p>However, sometimes your target audience is not very tech-savvy. People don't mind using your Python scripts as long as they don't have to look at one line of code. In this case, command line scripts will not be enough. Ideally you want a GUI. The purpose of this post is to use Python only.</p> <br><br>
+
+                <h4>Python libraries that can be used for GUI</h4>
+                <p>Essentially there are 3 big Python GUI libraries; Tkinter, wxPython and PyQT. Looking at them, I didn't find anything that I liked about Python. Python libraries tend to be very good at abstracting away the super technical stuff. If I needed to work with object-oriented programming, I might as well download Java or .Net.</p>
+
+                <p>However, fortunately, I came across a fourth option that I liked. It's PySimpleGUI, I still use it today. Oddly enough, this library uses all 3 popular libraries discussed above, but at the same time abstracts away from super technical issues.</p> <br><br>
+
+                <h4>Let's dive into this library and explore it while solving a real problem.</h4>
+                <h4>Check two identical files</h4>
+                <p>I explained how to do this in my article “3 Quick Ways to Compare Data in Python”. We can use the first section, data integrity check, to try to create a user interface.</p> <br><br>
+
+                <h4>3 Quick Ways To Compare Data with Python</h4>
+                <p>In fact, we need to upload two files and select the encryption we would like to use to compare the files.</p> <br><br>
+
+                <h4>Program the GUI</h4>
+                <p>To create a GUI you can use this code:</p>
+
+                <div class="code-block">
+                    <pre><code>import PySimpleGUI as sg
+layout = [
+    [sg.Text('File 1'), sg.InputText(), sg.FileBrowse(), sg.Checkbox('MD5'), sg.Checkbox('SHA1')],
+    [sg.Text('File 2'), sg.InputText(), sg.FileBrowse(), sg.Checkbox('SHA256')],
+    [sg.Output(size=(88, 20))],
+    [sg.Submit(), sg.Cancel()]
+]
+window = sg.Window('File Compare', layout)
+while True:  # The Event Loop
+    event, values = window.read()
+    # print(event, values)  # debug
+    if event in (None, 'Exit', 'Cancel'):
+        break
+</code></pre>
+                </div>
+
+                <p>As a result we get:</p>
+                <img src="images/resultdesign.png" alt="Marketing Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom JS file link -->
+    <script src="js/script.js"></script>
+</body>
+</html>
