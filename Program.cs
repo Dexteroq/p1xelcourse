@@ -2,32 +2,32 @@
 using Microsoft.EntityFrameworkCore;
 using CourseWork.Data;
 using CourseWork.Areas.Identity.Data;
-using CourseWork.Models; // Ensure you add this namespace for your models
+using CourseWork.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Строка подключения для контекста аутентификации
-var authConnectionString = builder.Configuration.GetConnectionString("AuthDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
+var authConnectionString = builder.Configuration.GetConnectionString("AuthDbContextConnection")
+    ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
+var defaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
-// Строка подключения для контекста комментариев (используем DefaultConnection)
-var defaultConnectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-
-builder.Services.AddDbContext<AuthDbContext>(options => options.UseSqlServer(authConnectionString));
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(defaultConnectionString));
+builder.Services.AddDbContext<AuthDbContext>(options =>
+    options.UseSqlServer(authConnectionString));
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(defaultConnectionString));
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<AuthDbContext>();
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<UserService>();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireUppercase = false;
 });
 
-// Настройка пути для страницы логина
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Identity/Account/Login";
@@ -35,7 +35,6 @@ builder.Services.ConfigureApplicationCookie(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -50,7 +49,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Middleware для перенаправления на страницу логина, если пользователь не аутентифицирован
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/" && !context.User.Identity.IsAuthenticated)
@@ -59,6 +57,14 @@ app.Use(async (context, next) =>
         return;
     }
     await next();
+});
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "watchvideo",
+        pattern: "WatchVideo/{action=Watch}/{id?}",
+        defaults: new { controller = "WatchVideo" });
 });
 
 app.MapControllerRoute(
